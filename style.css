@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Apply basic styles to the navigation */
+header {
+    background-color: #f2e9dd;
+    color: #2b1700;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    color: rgb(96, 152, 149);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #fbfbf7;
+  
+}
+body{
+    background-color: #f2e9dd;
+}
+.section{
+    text-decoration-color: #2b1700;
+}
+.portfolioboxes{
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+}
